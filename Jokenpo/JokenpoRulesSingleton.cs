@@ -7,24 +7,24 @@ namespace Jokenpo
     {
         private static Dictionary<JokenpoHandType, List<JokenpoHandType>> m_Rules = null;
 
-        private static volatile JokenpoRulesSingleton instance;
+        private static volatile JokenpoRulesSingleton m_Instance;
 
-        private static object syncRoot = new Object();
+        private static object m_SyncRoot = new Object();
 
         public static JokenpoRulesSingleton Instance
         {
             get
             {
-                if (instance == null)
+                if (m_Instance == null)
                 {
-                    lock (syncRoot)
+                    lock (m_SyncRoot)
                     {
-                        if (instance == null)
-                            instance = new JokenpoRulesSingleton();
+                        if (m_Instance == null)
+                            m_Instance = new JokenpoRulesSingleton();
                     }
                 }
 
-                return instance;
+                return m_Instance;
             }
         }
 

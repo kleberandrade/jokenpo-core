@@ -14,18 +14,13 @@ namespace Jokenpo
 
         public JokenpoHandType Next()
         {
-            Hand = (JokenpoHandType)AverageOfNumberRandom(5);
+            Hand = (JokenpoHandType)AverageOfNumberRandom();
             return Hand;
         }
 
-        private int AverageOfNumberRandom(int maxNumber)
+        private int AverageOfNumberRandom()
         {
-            int average = 0;
-
-            for (int i = 0; i < maxNumber; i++)
-                average += m_Random.Next(5);
-            
-            return average / maxNumber;
+            return m_Random.Next(Enum.GetNames(typeof(JokenpoHandType)).Length);
         }
     }
 }
