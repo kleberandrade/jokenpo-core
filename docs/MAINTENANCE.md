@@ -77,3 +77,11 @@ physical-device testing, package publication, push, or deployment is claimed.
   default GitHub branch from `master` to `main` using the branch-rename API.
 - Renamed the local branch and updated the workflow push filter and README badge.
   Earlier entries above describe the historical state before publication.
+
+### CI correction — checkout line endings
+
+- The first remote CI runs passed build and tests on all three systems, but the
+  Windows formatting step reported ENDOFLINE errors: Git had checked out CRLF
+  while .editorconfig requires LF.
+- Added .gitattributes to enforce LF at checkout on every platform, fixing the
+  source of the mismatch without weakening the formatting check.
