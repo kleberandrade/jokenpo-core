@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/examples/">
+    <Project Path="examples/Jokenpo.Cli/Jokenpo.Cli.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Jokenpo/Jokenpo.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Jokenpo.Tests/Jokenpo.Tests.csproj" />
+  </Folder>
+</Solution>

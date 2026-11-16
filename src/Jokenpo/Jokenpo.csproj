@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Description>Rock-Paper-Scissors-Lizard-Spock rules and random hands for .NET.</Description>
+    <Version>2.0.0</Version>
+    <Copyright>Copyright (c) 2015 Kléber de Oliveira Andrade</Copyright>
+    <Authors>Kléber de Oliveira Andrade</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/kleberandrade/jokenpo-core</RepositoryUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+    <None Include="../../LICENSE" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>
