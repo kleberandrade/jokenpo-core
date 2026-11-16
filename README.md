@@ -1,6 +1,6 @@
 # jokenpo-core
 
-[![CI](https://github.com/kleberandrade/jokenpo-core/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/kleberandrade/jokenpo-core/actions/workflows/ci.yml)
+[![CI](https://github.com/kleberandrade/jokenpo-core/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/kleberandrade/jokenpo-core/actions/workflows/ci.yml)
 [![C#](https://img.shields.io/badge/language-C%23-512BD4)](https://learn.microsoft.com/dotnet/csharp/)
 [![.NET 10](https://img.shields.io/badge/runtime-.NET%2010%20LTS-512BD4)](https://dotnet.microsoft.com/download/dotnet/10.0)
 [![MIT license](https://img.shields.io/badge/license-MIT-green)](LICENSE)

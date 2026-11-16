@@ -70,3 +70,10 @@ physical-device testing, package publication, push, or deployment is claimed.
   included here. Original MIT license text is unchanged.
 - `git diff --check`: passed. Changes are recorded as local commits; no push,
   deployment, package publication, or unrelated-project edits were performed.
+
+### Authorized publication and branch rename
+
+- At the owner's request, pushed the two modernization commits, then renamed the
+  default GitHub branch from `master` to `main` using the branch-rename API.
+- Renamed the local branch and updated the workflow push filter and README badge.
+  Earlier entries above describe the historical state before publication.
