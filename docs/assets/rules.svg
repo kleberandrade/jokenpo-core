@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1040" viewBox="0 0 1200 1040" role="img" aria-labelledby="title description">
+  <title id="title">Rock–Paper–Scissors–Lizard–Spock: who beats whom</title>
+  <desc id="description">Rock beats Scissor and Lizard. Paper beats Rock and Spock. Scissor beats Paper and Lizard. Lizard beats Paper and Spock. Spock beats Rock and Scissor. Identical hands draw.</desc>
+  <defs>
+    <g id="rock" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"><path d="M-26 15 -29 -3 -14 -23 8 -27 27 -10 29 15 9 27 -12 26Z"/><path d="M-29 -3 -8 1 8 -27M-8 1 9 27M-8 1 27 -10"/></g>
+    <g id="paper" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"><path d="M-20 -29H9L25 -13V29H-20Z"/><path d="M9 -29V-13H25M-10 -1H14M-10 10H14M-10 21H6"/></g>
+    <g id="scissor" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="-18" cy="19" r="10"/><circle cx="18" cy="19" r="10"/><path d="M-11 12 19 -28 6 2M11 12 -19 -28 -6 2"/><circle cx="0" cy="2" r="3"/></g>
+    <g id="lizard" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M-5 -4Q-16 -24 1 -29L13 -18 8 -7Q20 7 4 20Q-7 29 -26 12Q-8 19 -7 5Z"/><path d="M-7 -2 -24 -8 -29 -1M8 -4 25 -10 29 -4M-5 10 -18 22 -16 29M6 12 23 22 27 18"/><circle cx="4" cy="-21" r="1.5" fill="currentColor" stroke="none"/></g>
+    <g id="spock" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M-17 25Q-27 10 -29 -1Q-29 -8 -23 -4L-15 5 -24 -22Q-26 -29 -20 -28L-11 -7 -15 -29Q-15 -35 -9 -32L1 -5 10 -31Q13 -36 16 -30L11 -6 22 -25Q27 -30 29 -23L20 7Q19 24 10 29L-11 29Z"/></g>
+  </defs>
+  <rect width="1200" height="1040" rx="28" fill="#0b1220"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="64" y="66" font-size="17" font-weight="700" letter-spacing="4" fill="#8ecfff">JOKENPO CORE / THE RULES</text>
+    <text x="60" y="142" font-size="62" font-weight="700" letter-spacing="-2" fill="#f4f7fc">Every hand has two wins.</text>
+    <text x="64" y="187" font-size="23" fill="#b1bed0">Rock · Paper · Scissor · Lizard · Spock</text>
+    <g transform="translate(0 230)">
+      <rect x="64" width="1072" height="122" rx="18" fill="#151e2e" stroke="#2c394e"/>
+      <rect x="64" y="26" width="4" height="70" rx="2" fill="#ffad77"/>
+      <circle cx="127" cy="61" r="43" fill="#0b1220"/>
+      <use href="#rock" x="127" y="61" style="color:#ffad77"/>
+      <text x="192" y="72" font-size="34" font-weight="700" fill="#ffad77">Rock</text>
+      <text x="405" y="50" font-size="13" font-weight="700" letter-spacing="2" fill="#a9b7cb">BEATS</text>
+      <path d="M405 71H474M464 61 474 71 464 81" fill="none" stroke="#a9b7cb" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="510" y="18" width="280" height="86" rx="12" fill="#0e1726"/>
+      <text x="534" y="51" font-size="17" fill="#a9b7cb">crushes</text>
+      <text x="534" y="83" font-size="29" font-weight="700" fill="#f4f7fc">Scissor</text>
+      <rect x="828" y="18" width="280" height="86" rx="12" fill="#0e1726"/>
+      <text x="852" y="51" font-size="17" fill="#a9b7cb">crushes</text>
+      <text x="852" y="83" font-size="29" font-weight="700" fill="#f4f7fc">Lizard</text>
+      <text x="809" y="71" text-anchor="middle" font-size="25" fill="#7c8ca4">+</text>
+    </g>
+    <g transform="translate(0 370)">
+      <rect x="64" width="1072" height="122" rx="18" fill="#151e2e" stroke="#2c394e"/>
+      <rect x="64" y="26" width="4" height="70" rx="2" fill="#9cdbb2"/>
+      <circle cx="127" cy="61" r="43" fill="#0b1220"/>
+      <use href="#paper" x="127" y="61" style="color:#9cdbb2"/>
+      <text x="192" y="72" font-size="34" font-weight="700" fill="#9cdbb2">Paper</text>
+      <text x="405" y="50" font-size="13" font-weight="700" letter-spacing="2" fill="#a9b7cb">BEATS</text>
+      <path d="M405 71H474M464 61 474 71 464 81" fill="none" stroke="#a9b7cb" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="510" y="18" width="280" height="86" rx="12" fill="#0e1726"/>
+      <text x="534" y="51" font-size="17" fill="#a9b7cb">covers</text>
+      <text x="534" y="83" font-size="29" font-weight="700" fill="#f4f7fc">Rock</text>
+      <rect x="828" y="18" width="280" height="86" rx="12" fill="#0e1726"/>
+      <text x="852" y="51" font-size="17" fill="#a9b7cb">disproves</text>
+      <text x="852" y="83" font-size="29" font-weight="700" fill="#f4f7fc">Spock</text>
+      <text x="809" y="71" text-anchor="middle" font-size="25" fill="#7c8ca4">+</text>
+    </g>
+    <g transform="translate(0 510)">
+      <rect x="64" width="1072" height="122" rx="18" fill="#151e2e" stroke="#2c394e"/>
+      <rect x="64" y="26" width="4" height="70" rx="2" fill="#f3d47d"/>
+      <circle cx="127" cy="61" r="43" fill="#0b1220"/>
+      <use href="#scissor" x="127" y="61" style="color:#f3d47d"/>
+      <text x="192" y="72" font-size="34" font-weight="700" fill="#f3d47d">Scissor</text>
+      <text x="405" y="50" font-size="13" font-weight="700" letter-spacing="2" fill="#a9b7cb">BEATS</text>
+      <path d="M405 71H474M464 61 474 71 464 81" fill="none" stroke="#a9b7cb" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="510" y="18" width="280" height="86" rx="12" fill="#0e1726"/>
+      <text x="534" y="51" font-size="17" fill="#a9b7cb">cuts</text>
+      <text x="534" y="83" font-size="29" font-weight="700" fill="#f4f7fc">Paper</text>
+      <rect x="828" y="18" width="280" height="86" rx="12" fill="#0e1726"/>
+      <text x="852" y="51" font-size="17" fill="#a9b7cb">decapitates</text>
+      <text x="852" y="83" font-size="29" font-weight="700" fill="#f4f7fc">Lizard</text>
+      <text x="809" y="71" text-anchor="middle" font-size="25" fill="#7c8ca4">+</text>
+    </g>
+    <g transform="translate(0 650)">
+      <rect x="64" width="1072" height="122" rx="18" fill="#151e2e" stroke="#2c394e"/>
+      <rect x="64" y="26" width="4" height="70" rx="2" fill="#d2a8ff"/>
+      <circle cx="127" cy="61" r="43" fill="#0b1220"/>
+      <use href="#lizard" x="127" y="61" style="color:#d2a8ff"/>
+      <text x="192" y="72" font-size="34" font-weight="700" fill="#d2a8ff">Lizard</text>
+      <text x="405" y="50" font-size="13" font-weight="700" letter-spacing="2" fill="#a9b7cb">BEATS</text>
+      <path d="M405 71H474M464 61 474 71 464 81" fill="none" stroke="#a9b7cb" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="510" y="18" width="280" height="86" rx="12" fill="#0e1726"/>
+      <text x="534" y="51" font-size="17" fill="#a9b7cb">eats</text>
+      <text x="534" y="83" font-size="29" font-weight="700" fill="#f4f7fc">Paper</text>
+      <rect x="828" y="18" width="280" height="86" rx="12" fill="#0e1726"/>
+      <text x="852" y="51" font-size="17" fill="#a9b7cb">poisons</text>
+      <text x="852" y="83" font-size="29" font-weight="700" fill="#f4f7fc">Spock</text>
+      <text x="809" y="71" text-anchor="middle" font-size="25" fill="#7c8ca4">+</text>
+    </g>
+    <g transform="translate(0 790)">
+      <rect x="64" width="1072" height="122" rx="18" fill="#151e2e" stroke="#2c394e"/>
+      <rect x="64" y="26" width="4" height="70" rx="2" fill="#8ecfff"/>
+      <circle cx="127" cy="61" r="43" fill="#0b1220"/>
+      <use href="#spock" x="127" y="61" style="color:#8ecfff"/>
+      <text x="192" y="72" font-size="34" font-weight="700" fill="#8ecfff">Spock</text>
+      <text x="405" y="50" font-size="13" font-weight="700" letter-spacing="2" fill="#a9b7cb">BEATS</text>
+      <path d="M405 71H474M464 61 474 71 464 81" fill="none" stroke="#a9b7cb" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="510" y="18" width="280" height="86" rx="12" fill="#0e1726"/>
+      <text x="534" y="51" font-size="17" fill="#a9b7cb">vaporizes</text>
+      <text x="534" y="83" font-size="29" font-weight="700" fill="#f4f7fc">Rock</text>
+      <rect x="828" y="18" width="280" height="86" rx="12" fill="#0e1726"/>
+      <text x="852" y="51" font-size="17" fill="#a9b7cb">smashes</text>
+      <text x="852" y="83" font-size="29" font-weight="700" fill="#f4f7fc">Scissor</text>
+      <text x="809" y="71" text-anchor="middle" font-size="25" fill="#7c8ca4">+</text>
+    </g>
+    <path d="M64 955H1136" stroke="#2c394e"/>
+    <text x="64" y="997" font-size="21" fill="#b1bed0">Same hand? It's a draw.</text>
+    <text x="1136" y="997" text-anchor="end" font-size="17" fill="#8394ad">5 HANDS · 10 WINNING MATCHUPS</text>
+  </g>
+</svg>

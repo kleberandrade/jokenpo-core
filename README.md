@@ -74,6 +74,8 @@ written to standard error. It does not read standard input.
 
 ## Rules
 
+![Who beats whom in Rock–Paper–Scissors–Lizard–Spock](docs/assets/rules.svg)
+
 Each hand beats two others, loses to two, and draws against itself:
 
 - Rock crushes Scissor and Lizard.

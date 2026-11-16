@@ -85,3 +85,12 @@ physical-device testing, package publication, push, or deployment is claimed.
   while .editorconfig requires LF.
 - Added .gitattributes to enforce LF at checkout on every platform, fixing the
   source of the mismatch without weakening the formatting check.
+
+### Rules artwork
+
+- Created original SVG artwork with five hand icons, all ten winning matchups,
+  action labels and a draw note. Retained the API spelling `Scissor`.
+- Embedded it in the README and included the asset in local NuGet packaging.
+- Checked SVG syntax, all five icons and every matchup against the documented
+  rules; rendered and visually inspected a full-layout preview. No external
+  fonts, scripts, raster dependencies or third-party artwork are used.
