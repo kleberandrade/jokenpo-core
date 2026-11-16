@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-dotnet@26b0ec14cb23fa6904739307f278c14f94c95bf1 # v5
+        with:
+          global-json-file: global.json
+          cache: true
+          cache-dependency-path: tests/Jokenpo.Tests/packages.lock.json
+      - name: Restore locked dependencies
+        run: dotnet restore Jokenpo.slnx --locked-mode
+      - name: Build
+        run: dotnet build Jokenpo.slnx --configuration Release --no-restore
+      - name: Test
+        run: dotnet test --solution Jokenpo.slnx --configuration Release --no-build
+      - name: Check formatting
+        run: dotnet format Jokenpo.slnx --verify-no-changes --no-restore
+      - name: Check example
+        run: dotnet run --project examples/Jokenpo.Cli --configuration Release --no-build -- rock scissor
+      - name: Pack library locally
+        run: dotnet pack src/Jokenpo --configuration Release --no-build --output artifacts
